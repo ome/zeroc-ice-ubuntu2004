@@ -14,7 +14,7 @@ cd ice-$ICE_VERSION/cpp
 make --silent prefix=/opt/$TARGET_NAME
 make install --silent prefix=/opt/$TARGET_NAME
 
-tar -zcf /dist/$TARGET_NAME-ubuntu1804-amd64.tar.gz -C /opt $TARGET_NAME
+tar -zcf /dist/$TARGET_NAME-ubuntu2004-amd64.tar.gz -C /opt $TARGET_NAME
 
 # Zeroc IcePy
 # TODO: is it possible to rename the wheel to indicate it's only for Ubuntu?
